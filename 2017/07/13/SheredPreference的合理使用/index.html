@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html style="display: none;" >
+<html style="display: none;" lang="zh">
     <head>
     <meta charset="utf-8">
     <!--
@@ -11,6 +11,8 @@
     <!-- Title -->
     
     <title>
+        
+            SheredPreference的合理使用 | 
         
         Hexo
     </title>
@@ -32,7 +34,7 @@
     <meta http-equiv="X-UA-Compatible">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <meta name="theme-color" content="#0097A7">
-    <meta name="author" content="John Doe">
+    <meta name="author" content="姚罡">
     <meta name="description" itemprop="description" content="">
     <meta name="keywords" content="null">
 
@@ -63,18 +65,18 @@
     <!-- The Open Graph protocol -->
     <meta property="og:url" content="http://yoursite.com">
     <meta property="og:type" content="blog">
-    <meta property="og:title" content="Hexo">
+    <meta property="og:title" content="SheredPreference的合理使用 | Hexo">
     <meta property="og:image" content="/img/favicon.png" />
     <meta property="og:description" content="">
     
 
     
-        <meta property="article:published_time" content="Thu Jul 13 2017 20:31:11 GMT+0800" />
-        <meta property="article:modified_time" content="Thu Jul 13 2017 20:49:24 GMT+0800" />
+        <meta property="article:published_time" content="Thu Jul 13 2017 21:54:47 GMT+0800" />
+        <meta property="article:modified_time" content="Fri Jul 14 2017 08:56:35 GMT+0800" />
     
 
     <!-- The Twitter Card protocol -->
-    <meta name="twitter:title" content="Hexo">
+    <meta name="twitter:title" content="SheredPreference的合理使用 | Hexo">
     <meta name="twitter:description" content="">
     <meta name="twitter:image" content="/img/favicon.png">
     <meta name="twitter:card" content="summary_large_image" />
@@ -101,17 +103,17 @@
     },
     "author": {
         "@type": "Person",
-        "name": "John Doe",
+        "name": "姚罡",
         "image": {
             "@type": "ImageObject",
             "url": "/img/favicon.png"
         },
         "description": "Hi, nice to meet you"
     },
-    "headline": "",
+    "headline": "SheredPreference的合理使用",
     "url": "http://yoursite.com/2017/07/13/SheredPreference的合理使用/index.html",
-    "datePublished": "Thu Jul 13 2017 20:31:11 GMT+0800",
-    "dateModified": "Thu Jul 13 2017 20:49:24 GMT+0800",
+    "datePublished": "Thu Jul 13 2017 21:54:47 GMT+0800",
+    "dateModified": "Fri Jul 14 2017 08:56:35 GMT+0800",
     "description": "",
     "mainEntityOfPage": {
         "@type": "WebPage",
@@ -127,7 +129,7 @@
         <link rel="stylesheet" href="/css/ie-blocker.css">
 
         
-            <script src="/js/ie-blocker.en.js"></script>
+            <script src="/js/ie-blocker.zhCN.js"></script>
         
     <![endif]-->
 
@@ -333,7 +335,7 @@
 
     
     <ul class="post-toc-wrap mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="post-toc-trigger-btn" style="max-height:80vh; overflow-y:scroll;">
-        <ol class="post-toc"><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#SheredPreference的合理使用"><span class="post-toc-number">1.</span> <span class="post-toc-text">SheredPreference的合理使用</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#严苛模式问题"><span class="post-toc-number">1.0.1.</span> <span class="post-toc-text">严苛模式问题</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#sp加载卡住主线程的原因"><span class="post-toc-number">1.0.2.</span> <span class="post-toc-text">sp加载卡住主线程的原因</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#切勿多次执行apply-方法"><span class="post-toc-number">1.0.3.</span> <span class="post-toc-text">切勿多次执行apply()方法</span></a></li></ol></li></ol></li></ol>
+        <ol class="post-toc"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#严苛模式问题"><span class="post-toc-number">1.</span> <span class="post-toc-text">严苛模式问题</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#sp加载卡住主线程的原因"><span class="post-toc-number">2.</span> <span class="post-toc-text">sp加载卡住主线程的原因</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#切勿多次执行apply-方法"><span class="post-toc-number">3.</span> <span class="post-toc-text">切勿多次执行apply()方法</span></a></li></ol>
         <!--
         <li class="mdl-menu__item">
             Some Action
@@ -371,7 +373,7 @@
         
     
             <p class="article-headline-p">
-                
+                SheredPreference的合理使用
             </p>
         </div>
 
@@ -389,8 +391,8 @@
     </div>
     <!-- Author Name & Date -->
     <div>
-        <strong>John Doe</strong>
-        <span>Jul 13, 2017</span>
+        <strong>姚罡</strong>
+        <span>7月 13, 2017</span>
     </div>
 
     <div class="section-spacer"></div>
@@ -430,18 +432,18 @@
 
     <!-- Share Weibo -->
     
-        <a class="post_share-link" href="http://service.weibo.com/share/share.php?appkey=&title=&url=http://yoursite.com/2017/07/13/SheredPreference的合理使用/index.html&pic=&searchPic=false&style=simple" target="_blank">
+        <a class="post_share-link" href="http://service.weibo.com/share/share.php?appkey=&title=SheredPreference的合理使用&url=http://yoursite.com/2017/07/13/SheredPreference的合理使用/index.html&pic=&searchPic=false&style=simple" target="_blank">
             <li class="mdl-menu__item">
-                شارك على Weibo
+                分享到微博
             </li>
         </a>
     
 
     <!-- Share Twitter -->
     
-        <a class="post_share-link" href="https://twitter.com/intent/tweet?text=&url=http://yoursite.com/2017/07/13/SheredPreference的合理使用/index.html&via=John Doe" target="_blank">
+        <a class="post_share-link" href="https://twitter.com/intent/tweet?text=SheredPreference的合理使用&url=http://yoursite.com/2017/07/13/SheredPreference的合理使用/index.html&via=姚罡" target="_blank">
             <li class="mdl-menu__item">
-                شارك على Twitter
+                分享到 Twitter
             </li>
         </a>
     
@@ -450,7 +452,7 @@
     
         <a class="post_share-link" href="https://www.facebook.com/sharer/sharer.php?u=http://yoursite.com/2017/07/13/SheredPreference的合理使用/index.html" target="_blank">
             <li class="mdl-menu__item">
-                شارك على Facebook
+                分享到 Facebook
             </li>
         </a>
     
@@ -459,7 +461,7 @@
     
         <a class="post_share-link" href="https://plus.google.com/share?url=http://yoursite.com/2017/07/13/SheredPreference的合理使用/index.html" target="_blank">
             <li class="mdl-menu__item">
-                شارك على Google+
+                分享到 Google+
             </li>
         </a>
     
@@ -481,7 +483,7 @@
                 <!-- Post Content -->
                 <div id="post-content" class="mdl-color-text--grey-700 mdl-card__supporting-text fade out">
     
-        <h1 id="SheredPreference的合理使用"><a href="#SheredPreference的合理使用" class="headerlink" title="SheredPreference的合理使用"></a>SheredPreference的合理使用</h1><p>SharedPreference（下文成sp）是Android上一种轻量级存储方式。这里针对sp所引起的严苛模式问题给出解决方法并展开一些可能引发的问题。</p>
+        <p>SharedPreference（下文成sp）是Android上一种轻量级存储方式。这里针对sp所引起的严苛模式问题给出解决方法并展开一些可能引发的问题。</p>
 <h3 id="严苛模式问题"><a href="#严苛模式问题" class="headerlink" title="严苛模式问题"></a>严苛模式问题</h3><p>严苛模式主要会造成的问题有：</p>
 <ul>
 <li>在主线程通过commit()写入时</li>
@@ -556,7 +558,7 @@
 
     <!-- Sidebar Avatar -->
     <div class="sidebar-image">
-        <img src="/img/avatar.png" alt="John Doe's avatar">
+        <img src="/img/avatar.png" alt="姚罡's avatar">
     </div>
 
     <!-- Sidebar Email -->
@@ -592,7 +594,7 @@
                 
                     <i class="material-icons sidebar-material-icons">home</i>
                 
-                الرئيسية
+                主页
             </a>
         </li>
         
@@ -605,12 +607,12 @@
                 
                     <i class="material-icons sidebar-material-icons">inbox</i>
                 
-                    أرشيف
+                    归档
                 <b class="caret"></b>
             </a>
             <ul class="dropdown-menu">
             <li>
-                <a class="sidebar_archives-link" href="/archives/2017/07/">July 2017<span class="sidebar_archives-count">1</span></a>
+                <a class="sidebar_archives-link" href="/archives/2017/07/">七月 2017<span class="sidebar_archives-count">1</span></a>
             </ul>
         </li>
         
@@ -647,7 +649,7 @@ It will not impact the appearance and can give developers a lot of support :)
 
     <a href="https://github.com/viosey/hexo-theme-material"  class="sidebar-footer-text-a" target="_blank">
         <div class="sidebar-text mdl-button mdl-js-button mdl-js-ripple-effect sidebar-footer-text-div" data-upgraded=",MaterialButton,MaterialRipple">
-            سمة - Material
+            主题 - Material
             <span class="sidebar-badge badge-circle">i</span>
         </div>
     </a>
